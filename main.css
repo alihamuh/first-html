@@ -1,0 +1,52 @@
+.mypanel{
+
+ margin: 3%;
+ border: 1px solid green;
+ border-radius: 5px 5px 0 0;
+ box-shadow: 0px 0px 4px #999;
+}
+
+.mypanel .header{
+
+background: #B4E7C7;
+padding: 10px 20px;
+color: green;
+border-bottom:1px solid green;
+border-radius: 5px 5px 0 0; 
+}
+
+.mypanel .body{
+
+	padding: 10px 20px;
+}
+
+.mypanel .showonhover{
+	display: none;
+}
+
+.mypanel:hover .showonhover{
+
+	display: inline-block;
+	border: 2px;
+}
+
+.mypanel:hover{
+
+box-shadow: 0px 0px 8px #555;	
+}
+
+.hide{
+	display: none;
+}
+
+li input {
+	display: none;
+}
+
+li.edit span{
+	display: none;
+} 
+
+li.edit input{
+	display: initial;
+}
